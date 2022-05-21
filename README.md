@@ -1,4 +1,4 @@
-### HelloNFT contract peoject
+### HelloNFT contract project (THIS IS A ERC721 NFT, not ERC721a)
 
 #### Install packages
 
@@ -15,3 +15,4 @@
    PRIVATE_KEY=your_wallet_PRIVATE_KEY
    API_URL_KEY=your_alchemy_api_url
    ```
+Make sure to play around the contract code and change the Name and metadata to your perferences.
