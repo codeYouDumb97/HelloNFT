@@ -1,15 +1,17 @@
-# Basic Sample Hardhat Project
+### HelloNFT contract peoject
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+#### Install packages
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+   ``` npm install ```
+   
+#### To deploy the contract to rinkeby network, run 
+  ``` npx hardhat run scripts/deploy.js --network rinkeby ```
+  
+ This is will deploy your contract to the Rinkeby network and will mint the NFT to your wallet and will also transfer the NFT to the address you specified in the deploy.js file.
+ 
+#### Make sure you have the  `.env` file ready
+ The .env file should be like this and the values should be put without the qoutes.
+   ```
+   PRIVATE_KEY=your_wallet_PRIVATE_KEY
+   API_URL_KEY=your_alchemy_api_url
+   ```
